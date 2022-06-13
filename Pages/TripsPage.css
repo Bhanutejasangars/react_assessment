@@ -1,0 +1,43 @@
+.trips-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.ticket-component {
+  height: 34vh;
+  width: 80vw;
+  border-radius: 20px;
+  background-color: #022b32;
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.source-destination-details-box {
+  display: flex;
+  font-display: row;
+  align-items: center;
+  gap: 250px;
+  justify-content: space-between;
+}
+.separator {
+  border: none;
+  border-top: 1px dashed #f60606;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+.passenger-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 150px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+.main-container2 {
+  display: flex;
+  justify-content: center;
+}
+.bus-details-box {
+  height: 20vh;
+  width: 70vw;
+  border-radius: 20px;
+  background-color: #b4b4b4;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bus-details-box:hover {
+  background-color: #c0deff;
+  transform: translateX(-10px);
+}
+.travel-details-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.travel-logo-box {
+  display: flex;
+  flex-direction: column;
+}
+.travel-logo {
+  font-size: 25px;
+  color: #aa3232;
+}
+.from-to-details-box {
+  display: flex;
+  flex-direction: column;
+}
+.bus-company-details {
+  display: flex;
+  flex-direction: column;
+}

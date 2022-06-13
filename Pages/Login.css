@@ -1,0 +1,17 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 25px 0px;
+}
+.login-here {
+  color: dodgerblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-here:hover {
+  color: rgb(6, 58, 110);
+}
+
